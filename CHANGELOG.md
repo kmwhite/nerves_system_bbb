@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.16.0-dev
+
+This release changes the default IEx prompt output from the debug UART pins
+to a virtual serial port on the USB OTG connector. This release also enables
+a virtual Ethernet interface on the same USB interface for software updates.
+See the `nerves_init_gadget` project for initialization code.
+
 ## v0.15.0
 
   * nerves_system_br v0.13.3
