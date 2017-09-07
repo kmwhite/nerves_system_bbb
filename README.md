@@ -4,8 +4,8 @@
 
 This is the base Nerves System configuration for the [ODROID-XU4](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G143452239825), but it may also work on the [ODROID-HC1](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G150229074080) and [ODROID-XU3](http://www.hardkernel.com/main/products/prdt_info.php?g_code=G140448267127), but I lack the hardware to test. Your milage may vary.
 
-![BeagleBone Black image](assets/images/beaglebone-black.png)
-<br><sup>[Image credit](#fritzing)</sup>
+![Rotating XU4](assets/images/rotating-xu4.gif)
+<br><sup>[Image credit](#odroid)</sup>
 
 | Feature              | Description                     |
 | -------------------- | ------------------------------- |
@@ -66,3 +66,5 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:nerves_system_xu4]]
         end
+
+[Image credit](#odroid): This image is from the [ODROID-XU4 Wiki Page](https://wiki.odroid.com/odroid-xu4/odroid-xu4).
